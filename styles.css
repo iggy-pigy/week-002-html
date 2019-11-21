@@ -1,49 +1,61 @@
 h1 {
-    font-family: 'Bauhaus 93', cursive;
-    color: #CC1D0C;
-    text-align: center;
-    font-size: 40px;
-    margin: 5px 200px 100px 100px;
-  }
-  body {
-    background-color: #FFE9E7;
-    background-image: url(docs/cucamber_2.jpg);
-    background-repeat: repeat-x;
-  }
-  p {
-    font-family: 'Bauhaus 93', cursive;
-    font-weight: bold;
-    font-size: 25px;
-    color: #3536FF;
-    margin: 50px;
-    text-align: center;
-    padding: none;
-  }
-  
-  table {
-    font-family: 'Bauhaus 93';
-    font-size: 20px;
-  }
-  
-  button {
-    font-family: 'Bauhaus 93';
-    color: #000FB8;
-    font-size: 15px;
-  }
-  
-  h3 {
-    font-family: 'Bauhaus 93';
-    color: #FFDB32;
-     text-shadow:
-     -1px -1px 0 #000,  
-      1px -1px 0 #000,
-      -1px 1px 0 #000,
-       1px 1px 0 #000;
-    font-size: 30px;
-    text-align: left;
-    margin: 100px 1px 5px 200px;
-  }
-  textarea {
-    width: 800px;
-    margin: 5px 10px 1px 200px;
-  }
+  font-family: 'Staatliches', cursive;
+  letter-spacing: 5px;
+  color: black;
+  text-align: center;
+  font-size: 40px;
+  margin: 5px 200px 100px 100px;
+}
+h1::first-letter {
+font-size: 200%;
+color: #9AE617;
+  text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
+body {
+  background-color: #FFE3DF;
+  background-image: url(docs/cucamber_2.jpg);
+  background-repeat: repeat-x;
+}
+p {
+  font-family: 'Staatliches', cursive;
+  font-weight: bold;
+  font-size: 25px;
+  color: black;
+  margin: 50px;
+  text-align: center;
+  padding: none;
+  letter-spacing: 3px;
+}
+
+table {
+  font-family: 'Staatliches', cursive;
+  font-size: 20px;
+}
+
+button {
+  font-family: 'Staatliches', cursive;
+  color: #9AE617;
+  font-size: 15px;
+  background-color: black;
+}
+
+h3 {
+  font-family: 'Staatliches', cursive;
+  color: #9AE617;
+   text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+  font-size: 30px;
+  text-align: left;
+  margin: 100px 1px 5px 200px;
+}
+textarea {
+  width: 800px;
+  margin: 5px 10px 1px 200px;
+}
