@@ -4,7 +4,7 @@ h1 {
   color: black;
   text-align: center;
   font-size: 40px;
-  margin: 40px 100px 100px 100px;
+  margin: 35px 100px 100px 100px;
 }
 h1::first-letter {
 font-size: 200%;
