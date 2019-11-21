@@ -4,9 +4,14 @@ h1 {
     text-align: center;
     font-size: 40px;
     margin: 5px 200px 100px 100px;
+    background-image: url(docs/cucamber.jpg);
+    width: 200px;
+    height: 200px;
+    background-image: repeat-x;
   }
   body {
     background-color:#FFDEFB;
+
   }
   p {
     font-family: 'Bauhaus 93', cursive;
