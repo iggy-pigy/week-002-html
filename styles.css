@@ -3,8 +3,8 @@ h1 {
   letter-spacing: 5px;
   color: black;
   text-align: center;
-  font-size: 40px;
-  margin: 35px 100px 100px 100px;
+  font-size: 60px;
+  margin: 20px 100px 100px 100px;
 }
 h1::first-letter {
 font-size: 200%;
@@ -33,15 +33,15 @@ p {
 
 table {
   font-family: 'Staatliches', cursive;
-  font-size: 20px;
-  margin: 0px 0px 0px 50px;
+  font-size: 30px;
+  margin: 100px 0px 200px 50px;
 }
 
 
 button {
   font-family: 'Staatliches', cursive;
   color: #9AE617;
-  font-size: 15px;
+  font-size: 20px;
   background-color: black;
 }
 
@@ -72,12 +72,12 @@ h3 {
     1px -1px 0 #000,
     -1px 1px 0 #000,
      1px 1px 0 #000;
-  font-size: 30px;
-  margin: 200px 50px 10px 60px;
+  font-size: 40px;
+  text-align: center;
 }
 
 textarea {
-  width: 800px;
+  width: 1000px;
 }
 
 #cucumber {
