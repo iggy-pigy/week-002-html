@@ -4,7 +4,7 @@ h1 {
   color: black;
   text-align: center;
   font-size: 40px;
-  margin: 5px 200px 100px 100px;
+  margin: 40px 100px 100px 100px;
 }
 h1::first-letter {
 font-size: 200%;
@@ -17,7 +17,7 @@ color: #9AE617;
 }
 body {
   background-color: #FFE3DF;
-  background-image: url(docs/cucamber_2.jpg);
+  background-image: url(docs/cucamber_3.jpg);
   background-repeat: repeat-x;
 }
 p {
@@ -25,7 +25,7 @@ p {
   font-weight: bold;
   font-size: 25px;
   color: black;
-  margin: 70px;
+  margin: 50px;
   text-align: center;
   padding: none;
   letter-spacing: 3px;
@@ -51,7 +51,7 @@ button:hover {
 
 #tasks {
   text-align: center;
-  margin: 100px 50px 100px 50px;
+  margin: 200px 50px 100px 50px;
 }
 
 span {
@@ -73,7 +73,7 @@ h3 {
     -1px 1px 0 #000,
      1px 1px 0 #000;
   font-size: 30px;
-  margin: 50px 50px 10px 60px;
+  margin: 200px 50px 10px 60px;
 }
 
 textarea {
@@ -82,9 +82,10 @@ textarea {
 
 #cucumber {
   text-align: center;
+  margin: 300px 50px 10px 50px;
 }
 
 #notes {
   text-align: center;
-  margin: 0px 50px 50px 50px;
+  margin: 0px 50px 100px 50px;
 }
