@@ -63,6 +63,23 @@ span {
     1px 1px 0 #000;
 }
 
+.progressH {
+  font-family: 'Staatliches', cursive;
+  color: #9AE617;
+   text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+  font-size: 30px;
+  margin: 50px 50px 0px 50px;
+}
+
+.progress {
+  margin: 0px 50px 150px 50px;
+  border-block-color: black;
+  max-width: 80%;
+}
 
 h3 {
   font-family: 'Staatliches', cursive;
@@ -77,8 +94,10 @@ h3 {
   margin: 50px 50px 0px 50px;
 }
 
-textarea {
-  width: 800px;
+.text{
+  text-align: center;
+  margin: 0px 50px 50px 50px;
+  max-width: 100%;
 }
 
 #cucumber {
@@ -86,7 +105,3 @@ textarea {
   margin: 300px 50px 10px 50px;
 }
 
-#notes {
-  text-align: center;
-  margin: 0px 50px 100px 50px;
-}
