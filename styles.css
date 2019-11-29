@@ -111,17 +111,23 @@ p {
     margin: 0px 0px 150px 0px;
     max-width: 100%;
   }  
+  #tasks {
+    margin: 150px 50px 00px 50px;
+  }
+  .paragraph {
+    margin: 100px 50px 0px 50px;
+  }
   p {
     font-size: 15px;
     margin: 0px 0px 100px 0px;
   }
-  .text{
+  .text {
     margin: 0px 50px 50px 50px;
   }
   .progress {
     margin: 0px 50px 100px 50px;
   }
   h4 {
-  margin: 50px 50px 0px 50px;
+  margin: 10px 50px 0px 50px;
   }
 }
