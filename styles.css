@@ -39,8 +39,11 @@ p {
 button {
   font-family: 'Staatliches', cursive;
   color: #9AE617;
-  font-size: 20px;
+  font-size: 15px;
   background-color: black;
+  min-width: 50px;
+  min-height: 48px;
+  text-align: center;
 }
 
 button:hover {
@@ -102,6 +105,7 @@ h3 {
 #cucumber {
   text-align: center;
   margin: 300px 50px 10px 50px;
+  width: 100%;
 }
 
 @media only screen and (max-width:800px) {
