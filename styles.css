@@ -6,6 +6,7 @@ h1 {
   font-size: 60px;
   margin: 5px 100px 100px 100px;
 }
+
 h1::first-letter {
 font-size: 200%;
 color: #9AE617;
@@ -15,11 +16,13 @@ color: #9AE617;
     -1px 1px 0 #000,
      1px 1px 0 #000;
 }
+
 body {
   background-color: #FFE7E5;
   background-image: url(docs/cucamber_3.jpg);
   background-repeat: repeat-x;
 }
+
 p {
   font-family: 'Staatliches', cursive;
   font-weight: bold;
@@ -31,11 +34,6 @@ p {
   letter-spacing: 3px;
 }
 
-table {
-  font-family: 'Staatliches', cursive;
-  font-size: 30px;
-  margin: 100px 0px 200px 50px;
-}
 
 
 button {
@@ -77,8 +75,9 @@ span {
 
 .progress {
   margin: 0px 50px 150px 50px;
-  border-block-color: black;
-  max-width: 80%;
+  background-color: #FFB5FC;
+  max-width: 100%;
+  text-align: center;
 }
 
 h3 {
