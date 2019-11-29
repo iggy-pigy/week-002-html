@@ -1,11 +1,11 @@
 h1 {
   font-family: 'Staatliches', cursive;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bolder;
   letter-spacing: 5px;
   color: black;
   text-align: center;
-  margin: 0px 50px 80px 50px;
+  margin: 0px 25px 25px 25px;
 }
 body {
   background-color: #FFE7E5;
@@ -108,11 +108,22 @@ h3 {
 
 #cucumber {
   text-align: center;
-  width: 100%;
 }
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:540px) {
   body {
       background-color: rgb(119, 171, 238);
+  }
+}
+
+@media only screen and (min-width:541px) {
+  h1 {
+    font-size: 60px;
+    margin: 0px 0px 150px 0px;
+    max-width: 100%;
+  }  
+  p {
+    font-size: 15px;
+    margin: 0px 0px 100px 0px;
   }
 }
