@@ -44,8 +44,8 @@ button {
   color: #9AE617;
   font-size: 15px;
   background-color: black;
-  min-width: 50px;
-  min-height: 48px;
+  min-width: 40px;
+  min-height: 35px;
   text-align: center;
 }
 
@@ -114,5 +114,9 @@ h3 {
 @media only screen and (max-width:800px) {
   body {
       background-color: rgb(119, 171, 238);
+  }
+  button {
+    min-width: 50px;
+    min-height: 40px;
   }
 }
