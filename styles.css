@@ -1,15 +1,20 @@
 h1 {
   font-family: 'Staatliches', cursive;
+  font-size: 40px;
+  font-weight: bolder;
   letter-spacing: 5px;
   color: black;
   text-align: center;
-  font-size: 60px;
-  margin: 5px 100px 100px 100px;
-  max-width: 100%;
+  margin: 0px 50px 80px 50px;
+}
+body {
+  background-color: #FFE7E5;
+  background-image: url(docs/cucamber_3.jpg);
+  background-repeat: repeat-x;
 }
 
 h1::first-letter {
-font-size: 200%;
+font-size: 150%;
 color: #9AE617;
   text-shadow:
    -1px -1px 0 #000,  
@@ -18,31 +23,15 @@ color: #9AE617;
      1px 1px 0 #000;
 }
 
-body {
-  width: 100%;
-  height: 100%;
-  background-color: #FFE7E5;
-  background-image: url(docs/cucamber_3.jpg);
-  background-repeat: repeat-x;
-}
-
-p {
-  font-family: 'Staatliches', cursive;
-  font-weight: bold;
-  font-size: 25px;
-  color: black;
-  margin: 50px;
+#tasks {
   text-align: center;
-  padding: none;
-  letter-spacing: 3px;
+  margin: 100px 50px 50px 50px;
 }
-
-
 
 button {
   font-family: 'Staatliches', cursive;
   color: #9AE617;
-  font-size: 15px;
+  font-size: inherit;
   background-color: black;
   min-width: 40px;
   min-height: 35px;
@@ -53,9 +42,15 @@ button:hover {
   background-color: #FFB5FC;
 }
 
-#tasks {
+.paragraph {
+  font-family: 'Staatliches', cursive;
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+  margin: 50px;
   text-align: center;
-  margin: 200px 50px 100px 50px;
+  padding: none;
+  letter-spacing: 3px;
 }
 
 span {
@@ -67,7 +62,7 @@ span {
     1px 1px 0 #000;
 }
 
-.progressH {
+h4 {
   font-family: 'Staatliches', cursive;
   color: #9AE617;
    text-shadow:
@@ -75,15 +70,22 @@ span {
     1px -1px 0 #000,
     -1px 1px 0 #000,
      1px 1px 0 #000;
-  font-size: 30px;
   margin: 50px 50px 0px 50px;
 }
 
 .progress {
-  margin: 0px 50px 150px 50px;
+  margin: 0px 50px 100px 50px;
   background-color: #FFB5FC;
   max-width: 100%;
   text-align: center;
+}
+
+p {
+  font-family: 'Staatliches', cursive;
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+  letter-spacing: 2px;
 }
 
 h3 {
@@ -94,7 +96,6 @@ h3 {
     1px -1px 0 #000,
     -1px 1px 0 #000,
      1px 1px 0 #000;
-  font-size: 40px;
   text-align: center;
   margin: 50px 50px 0px 50px;
 }
@@ -107,16 +108,11 @@ h3 {
 
 #cucumber {
   text-align: center;
-  margin: 300px 50px 10px 50px;
   width: 100%;
 }
 
-@media only screen and (max-width:800px) {
+@media only screen and (max-width:600px) {
   body {
       background-color: rgb(119, 171, 238);
-  }
-  button {
-    min-width: 50px;
-    min-height: 40px;
   }
 }
